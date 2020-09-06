@@ -1,0 +1,182 @@
+.pTagStyle ::first-letter{
+    font-size: 50px;
+}
+.pTagStyle{
+    border: 1px solid coral;
+    float: right;
+    width: 45%;
+    padding: 10px;
+}
+.paragraph{
+    border: 1px solid coral;
+    float: left;
+    width: 45%;
+    padding: 10px;
+}
+.wrapper{
+    margin:50px auto;
+    padding: 50px;
+    width: 20%;
+
+}
+.Submitinput{
+    float: left;
+    margin: auto;
+}
+.Submitbtn{
+    float: right;
+    margin: auto;
+}
+.wrapper button{
+    background-color:coral;
+    text-align: end;
+    border: none;
+    outline: none;
+    padding: 8px 12px;
+    color: #fff;
+    margin: auto;
+    border-radius: 5px;
+
+
+}
+.wrapper button:hover{
+    background-color:grey;
+    
+}
+.wrapper button:active{
+    transform: translateY(1px);
+}
+body{
+    width: 80%;
+    margin: auto;
+    min-width: 600px;
+}
+.table{
+    /* border: 2px solid #455A64; */
+    padding: 3px 2px;
+    margin:auto;
+    width: 70%;
+    min-width: 500px;
+    background-color: #eee;
+    border-collapse:collapse;
+}
+
+.header tr{
+    text-align: center;
+    background-color: #ccc;
+    /* border: 1px solid #000; */
+}
+.header tr th{
+    border: 1px solid #000;
+}
+.tableBody tr{
+    text-align: center;
+    border-right: 1px solid #000;
+}
+.tableBody tr td{
+    border:1px solid #000;
+}
+.tableBody tr:nth-child(odd){
+    background: #fff;
+}
+ul{
+    list-style-type: none;
+}
+.form{
+    border: 1px solid #000;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+.form-group{
+    /* text-align: left; */
+    font-size: 20px;
+    margin: auto;
+    display: block;
+    padding: 5px 5px 0 20px;
+}
+.form input{
+    padding: 10px;
+    width: 90%;
+    
+}
+.form-group label{
+    float: left;
+    margin-left: 3%;
+} 
+.form-group textarea{
+    width: 90%;
+    height: 70px;
+}
+.form-group select{
+    width: 90%;
+    height: 25px;
+}
+.form-group input[type="submit"]{
+    width: 100px;
+    background-color: seagreen;
+    color: seashell;
+    border-style: none;
+    border-radius: 5px;
+    outline: none;
+}
+.p-box{
+    width: 500px;
+    height: 400px;
+    border: 1px solid #000;
+    margin-top:30px;
+    position:relative;
+    color: #fff;
+    background-repeat: none;
+    background-position: center center;
+    background-position: 100px 200px;
+    background-image: url(/images/bg.jpg);
+}
+.p-box{
+    position: relative;
+    margin: auto;
+    padding: 100px 0;
+}
+.p-box h1{
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+.p-box h2{
+    position: absolute;
+    bottom: 40px;
+    right: 100px;
+}
+.my-list li:nth-child(odd){
+    background: #eee;
+}
+.my-list li:nth-child(even){
+    background: #ddd;
+}
+.hStyle{
+    background-color: coral;
+    height: 80px;
+    margin: 0;
+}
+body{
+    border: 2px solid #000 ;
+    padding: 10px;
+}
+.footer{
+    background-color: coral;
+    border: 3px solid #000;
+    height: 80px;
+    margin: auto;
+}
+#testBtn{
+    width: 40%;
+    max-width: 100px;
+}
+.mail{
+    width: 20px;
+    height: 20px;
+    margin: auto;
+    float: right;
+}
+
+
